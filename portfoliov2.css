@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #1d2d44;
+  height: 5vh;
+}
+
+li {
+  display: inline;
+  float: inline-end;
+  padding-top: 10px;
+}
+
+.navbar li a {
+  color: #f0ebd8;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+
+li a:hover,
+li a:focus {
+  text-decoration: underline;
+}
+
+body {
+  background-color: #0d1321;
+  color: #f0ebd8;
+}
+.wrapper {
+  height: 90vh;
+}
+
+.contact {
+  height: 50vh;
+}
+.wrapper,
+.projects,
+.contact {
+  width: 100%;
+}
+
+.about-info {
+  width: 80%;
+  color: #f0ebd8;
+  padding-top: 25px;
+}
+
+.about-info h2 {
+  width: 100%;
+  padding: 30px 30px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  color: #111;
+  line-height: 44px;
+  color: #f0ebd8;
+}
+
+.about-info p {
+  width: 100%;
+  padding: 0px 30px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #111;
+  line-height: 24px;
+  color: #f0ebd8;
+}
+
+.img-me {
+  width: 85%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  padding-top: 25px;
+}
+
+.projects h1,
+.contact h1 {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 3.5rem;
+  font-family: Helvetica;
+}
+
+.project-gallery img,
+.google-maps {
+  width: 75%;
+  display: block;
+  margin: 0 auto;
+  padding-top: 35px;
+}
+
+.social-icons {
+  display: block;
+  text-align: center;
+}
+
+.social-icons a {
+  font-size: 4rem;
+  text-decoration: none;
+  color: #f0ebd8;
+  margin-inline: 5px;
+  position: relative;
+  top: -100px;
+}
+
+.social-icons a:hover,
+.project-gallery img:hover {
+  transform: scale(1.25);
+}
+
+@media only screen and (min-width: 768px) {
+  .wrapper {
+    width: 600px;
+    height: 95vh;
+    margin: 0 auto;
+  }
+  .about-info {
+    margin-top: 5vh;
+  }
+  .about-info h2 {
+    padding: 20px 0px 0px;
+  }
+
+  .about-info p {
+    padding: 20px 0px 0px;
+  }
+  .img-me {
+    padding: 20px;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .wrapper,
+  .projects,
+  .contact {
+    width: 1000px;
+    margin: 0 auto;
+  }
+  .wrapper {
+    height: 80vh;
+  }
+  .about-info {
+    width: 50%;
+    float: right;
+    margin-top: 125px;
+  }
+  .about-info h2 {
+    padding: 20px 0px 0px 30px;
+  }
+
+  .about-info p {
+    padding: 20px 0px 0px 30px;
+  }
+  .img-me {
+    width: 45%;
+    float: left;
+    margin-top: 50px;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .project-gallery img,
+  .google-maps {
+    width: 50%;
+  }
+
+  .project-gallery img {
+    padding: 35px;
+  }
+
+  .social-icons a {
+    position: relative;
+    top: -75px;
+  }
+}
