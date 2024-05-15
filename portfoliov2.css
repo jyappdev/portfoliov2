@@ -35,7 +35,7 @@ body {
   height: 100vh;
 }
 .projects {
-  margin-top: 100px;
+  margin-top: 2rem;
   background-color: #1d2d44;
   border-radius: 10px;
 }
@@ -108,7 +108,7 @@ body {
   text-decoration: none;
   color: #f0ebd8;
   margin-inline: 5px;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 .social-icons a:hover,
@@ -136,6 +136,11 @@ body {
     width: 75%;
     position: relative;
     top: -25px;
+    margin-top: 1.5rem;
+  }
+  .social-icons a {
+    position: relative;
+    top: -50px;
   }
 }
 
@@ -158,6 +163,7 @@ body {
   }
   .img-me {
     width: 50%;
+    margin-top: 3rem;
   }
 }
 @media only screen and (min-width: 1000px) {
